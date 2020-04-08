@@ -1,0 +1,28 @@
+plugins {
+    id 'application'
+}
+
+group 'com.rest.eccount.nio'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 12
+
+repositories {
+    mavenCentral()
+}
+
+group = 'com.prayagupd.api'
+description = 'eccount'
+
+mainClassName = 'com.api.RESTApplication'
+
+dependencies {
+
+    compile group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jdk8', version: '2.9.9'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.9'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.9'
+
+    compile group: 'io.projectreactor.netty', name: 'reactor-netty', version: '0.9.6.RELEASE'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
