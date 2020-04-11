@@ -1,3 +1,5 @@
+java nio microservice 
+---
 
 good 
 
@@ -186,3 +188,10 @@ references
 
 - https://projectreactor.io/docs/netty/release/reference/index.html#http-server
 - https://projectreactor.io/docs/core/release/reference/#_blocking_can_be_wasteful
+
+also see
+--
+
+- https://github.com/prayagupd/eccount-rest
+- https://github.com/duwamish-os/netty-microservice
+- https://github.com/prayagupd/nodejs-microservice
