@@ -180,3 +180,9 @@ Percentage of the requests served within a certain time (ms)
 ```
 
 ![](netty_rector_2020.png)
+
+references
+--
+
+- https://projectreactor.io/docs/netty/release/reference/index.html#http-server
+- https://projectreactor.io/docs/core/release/reference/#_blocking_can_be_wasteful
